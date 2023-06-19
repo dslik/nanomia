@@ -13,6 +13,25 @@ Initial features include:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-06-19
+
+Finally figured out the cause of the I2C issue, and I can easily bodge in a fix. In the process of working out the I2C issues, I made a bunch of improvements to the software stack, including adding in UART debugging output and a polling framework for the front panel buttons.
+
+The first example program for this module will be a clock generator:
+
+- Gate in 1 - Start clock
+- Gate in 3 - Stop clock
+- Gate in 5 - Speed up clock
+- Gate in 7 - Slow down clock
+- Gate out 2 - Clock
+- Gate out 4 - Clock / 2
+- Gate out 6 - Clock / 4
+- Gate out 8 - Clock / 16
+
+The buttons will perform the same functions as the corresponding gate input.
+
+Once the software is all tested with the bodged PCBs, I will be able to order the final PCBs, and this module (at least the hardware), will be ready to post!
+
 ## 2023-06-15
 
 Assembled and tested the latest reivsion of this module. The front panel is working, and all the components fit as expected.
