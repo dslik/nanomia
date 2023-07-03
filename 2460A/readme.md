@@ -15,6 +15,18 @@ Initial features include:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-02
+
+The control and power board is now fully designed and has been sent off to be manufactured.
+
+![image](https://github.com/dslik/nanomia/assets/5757591/9d4ca0c1-2587-4951-981b-dc842dc7bd8e)
+
+The power section regulates 5V and 3.3V outputs from the 12V input. There is a PTC fuse to prevent excessive power draw from the LEDs from damaging the power regulators (the PTC is rated at 200 mA, and the 5V regulator is rated to 800 mA, so that's plenty of headroom). Since I only run the LEDs at a maximum of 0.08% of rated power, that works out to 102 mA.
+
+The processor section is a general RP2040-based layout that I use across many of my designs, with GPIO lines connected to the J3 through J6.
+
+The board should arrive here for testing in a couple of weeks.
+
 ## 2023-06-12
 
 Assembled and tested the new front panel that uses a PCB diffusor for the LEDs instead of 8x8 LED matrix modules. It looks gorgeous. This exceeded my expectations.
