@@ -3,15 +3,27 @@
 A four input/four output gate processor
 
 Initial features include:
+- [Gate enable/disable](https://github.com/dslik/nanomia/tree/main/2470A/2470-0901)
 - Clock generation
 - Clock processing (divide, multiply, etc)
 - Gate logic (AND/OR/XOR/etc)
-- Gate enable/disable
 - MIDI gate control (over USB)
 
 # Build Journal
 
 _Feel free to ask questions by opening an issue!_
+
+## 2023-07-02
+
+An initial version of the module software is checked in:
+
+https://github.com/dslik/nanomia/tree/main/2470A/2470-0901
+
+This program allows you to control if gate inputs are forwarded to the corresponding gate output.
+
+![image](https://github.com/dslik/nanomia/assets/5757591/a76142b0-f1b0-435d-9ea2-cc1e502db8ca)
+
+Next step is testing the USB input.
 
 ## 2023-06-21
 
