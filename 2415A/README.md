@@ -9,6 +9,10 @@ Initial features include:
 - Two buffered outputs
 - Works with audio and CV signals
 
+While these modules can be hand-assembled, they are best ordered pre-assembled from your PCB house. BOM and component placement files are provided for the main board (2415-0201).
+
+Full assembly instructions will be uploaded soon.
+
 # Build Journal
 
 _Feel free to ask questions by opening an issue!_
@@ -30,3 +34,5 @@ And, after installing it into my Eurorack system, it works exactly as expected!
 ![image](https://github.com/dslik/nanomia/assets/5757591/c41620b5-1962-4b93-b821-59d7ee9ea361)
 
 So this module is pretty much done!
+
+Next steps are to order final boards, and to write up the assembly instructions.
