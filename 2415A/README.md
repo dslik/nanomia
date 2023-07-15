@@ -17,6 +17,16 @@ Full assembly instructions will be uploaded soon.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-14
+
+I noticed that while everything is working as expected, the op-amps are drawing way more power than I expected.
+
+So I'd hold of on building any of these until I figure out what is going on.
+
+Here's the schematics:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/e0a7ad7b-ed48-4621-9b81-56d1a5852fcb)
+
 ## 2023-07-06
 
 Got the assembled boards from the manufacturer:
