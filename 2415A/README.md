@@ -17,6 +17,22 @@ Full assembly instructions will be uploaded soon.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-15
+
+The two NE5532 op-amps are each drawing around 40 ma, and get hot to the touch.
+
+To check for stability, I applied a square wave to the input (blue trace), and measured the output (purple trace). The response looks well damped, and there aren't any oscillations other than what is present on the input.
+
+![ScreenImg-32](https://github.com/dslik/nanomia/assets/5757591/927c24ca-5711-432b-84b8-3b14c362944d)
+
+I can't see any signs of stability problems on any of the output or input pins, so if there are any oscillations, they are internal to the op-amp.
+
+Still working on figuring out where the excessive current draw is coming from.
+
+The reason why the output trace is 50mV slower than the input trace is because the voltage divider formed by R5 and R10. If I increased the resistance of R5 to 10K, and reconfigured U2A and U2B to have a gain of 2, then the output would exactly match the input.
+
+If I have to do a re-spin to fix the excessive current draw, I think I'll also add that change.
+
 ## 2023-07-14
 
 I noticed that while everything is working as expected, the op-amps are drawing way more power than I expected.
