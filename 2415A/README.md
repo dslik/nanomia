@@ -17,6 +17,24 @@ Full assembly instructions will be uploaded soon.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-16
+
+Despite the module working as expected, and not being able to see anything out of the ordinary on the oscilloscope, the NE5532 op-amps are oscillating internally. I broke out the spectrum analyzer and the H-field probe, and sure enough, there is a strong signature present above each op-amp IC:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/cf2173f8-3745-4c87-8fa3-7181097b7ed3)
+
+Just look at those sprus!
+
+I made a couple of improvements to the board layout for the 1.1 revision, namely a better ground plane, and moved the input mix resistors and the output protection resistors closer to the op-amps. Long traces can add capacitance, which may be what is causing the oscillations.
+
+I also incorporated the design changes discussed yesterday to move from a unity follower to a gain of 2, which should also help with stability. Unfortunately, since this board is so cramped, I had to use some 0402 resistors to make everything fit, which does complicate things if I have to do any rework.
+
+Here's the updated schematics for revision 1.1:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/b98f2fee-b108-460f-abd3-1bd5523c7bdb)
+
+I'll have to get a new set of boards made, and re-test everything, but hopefully this will fix the problem.
+
 ## 2023-07-15
 
 The two NE5532 op-amps are each drawing around 40 ma, and get hot to the touch.
