@@ -15,6 +15,18 @@ Initial features include:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-16
+
+The control and power board is assembled and working:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/65008806-0fca-40db-a135-56411a94e7eb)
+
+However, I ran into the same op-amp oscillations that caused problems with the 2415A module. Once I verify if the changes to the 2415-0201 board fix this problem, I can make similar changes to the analog board for this module, and move forward again.
+
+Despite this, I was able to verify the mechanical design, and salvage the built module for work on software development for the front panel user interface.
+
+I put together a second revision of the processor board, since the current draw from the smart LEDs, even when off, is pretty high, and it was better to just rely on the Eurorack 5V rail rather than regulating it down from the 12V rail.
+
 ## 2023-07-02
 
 The control and power board is now fully designed and has been sent off to be manufactured.
