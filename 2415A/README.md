@@ -1,4 +1,4 @@
-# Nanomia Attenuator
+aned up # Nanomia Attenuator
 
 A 2HP mix-attenuate-buffer module.
 
@@ -16,6 +16,14 @@ Full assembly instructions will be uploaded soon.
 # Build Journal
 
 _Feel free to ask questions by opening an issue!_
+
+## 2023-07-19
+
+I re-did the routing for the analog board to eliminate the long traces that were likely adding significant capacitance, and also cleaned up the ground plane on the top side. I did have to move some of the resistors over to 0402, but didn't have to go to four layers.
+
+![image](https://github.com/dslik/nanomia/assets/5757591/f3cd6a0e-f5a1-48e8-abe2-2f76bcb4a509)
+
+I'll get this sent off to be manufactured in the next batch, and hopefully this will fix the power draw problem.
 
 ## 2023-07-16
 
