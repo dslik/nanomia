@@ -1,4 +1,4 @@
-aned up # Nanomia Attenuator
+# Nanomia Attenuator
 
 A 2HP mix-attenuate-buffer module.
 
