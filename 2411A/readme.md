@@ -14,6 +14,12 @@ Initial features include:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-07-24
+
+Position test for the components that mount to the front panel is looking good. This means I can have a small manufacturing run with ENIG done for these boards.
+
+![image](https://github.com/dslik/nanomia/assets/5757591/468ffc6f-8263-4340-b1de-228c66327851)
+
 ## 2023-07-19
 
 Created schematics for this module. PCB designs are ready for manufacturing, and will be sent off in the next batch.
