@@ -1,0 +1,44 @@
+<!DOCTYPE HTML> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head> 
+  <head>
+    <title>Waveform SVG generator</title>
+  </head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+  <body>
+    <div id="sine_wave">
+      <svg width="8000" height="200">
+      </svg>
+    </div> 
+    <script>
+      // Code based on answer by Asad Saeeduddin to
+      // https://stackoverflow.com/questions/13932704/how-to-draw-sine-waves-with-svg-js
+
+      var svg = document.getElementById('sine_wave').children[0];
+
+      var origin = {
+          x: 100,
+          y: 100
+      };
+      
+      var amplitude = 50; // wave amplitude
+      var rarity = 1;     // point spacing
+      var freq = 0.1;     // angular frequency
+      var phase = 0;      // phase angle
+
+      for (var i = -100; i < 8000; i++) {
+          var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+          freq = Math.sin(i/600)
+
+          line.setAttribute('x1', (i - 1) * rarity + origin.x);
+          line.setAttribute('y1', Math.sin(freq*(i - 1 + phase)) * amplitude + origin.y);
+
+          line.setAttribute('x2', i * rarity + origin.x);
+          line.setAttribute('y2', Math.cos(freq*(i + phase)) * amplitude + origin.y);
+
+          line.setAttribute('style', "stroke:black;stroke-width:1");
+
+          svg.appendChild(line);
+      }
+    </script>
+  </body>
+</html>
