@@ -13,6 +13,33 @@ Features:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-08-25
+
+The six PCBs came in:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/66b2edd1-eaae-4c81-9c97-90daf005465a)
+
+From top to bottom:
+- Front panel PCB
+- LED spacer PCB
+- LED PCBs (left and right)
+- Stiffener PCB
+- Main PCB
+
+Here's what the PCBs that attach to the front panel look like:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/ed6ba2c6-13c9-4b84-b1f9-dced9b38a7a9)
+
+The mechanical clearances all work, except that the LCD needs a bit more room, so I'll have to update the stiffener PCB to make more room.
+
+The two processors on the main board came up without any problems, and basic tests of the LED display and indicators all worked:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/cff9bccf-b7ec-4ae4-bf3c-354cf384d969)
+
+Looking pretty good!
+
+Next steps involve testing the gate I/O, buttons, and inter-processor communication.
+
 ## 2023-08-15
 
 This started out a few days ago as a joke:
