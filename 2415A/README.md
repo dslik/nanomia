@@ -17,6 +17,30 @@ Full assembly instructions will be uploaded soon.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-08-26
+
+The updated PCBs arrived:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/7e7b2ff3-7285-45da-bde7-e737099d56b8)
+
+Once assembled, they are still drawing more current than I was expecting:
+
+- Without module attached: 41 mA (5V in to power supply)
+- With module attached: 127 mA
+- Difference: 86 ma (20 mA per op-amp)
+
+As the previous design also draws 127 mA, this indicates that all the design changes I put in didn't make any difference at all with respect to current draw.
+
+It's worth noting that these numbers include power supply conversion inefficeincies, and that the op-amps are running with +/- 12V rails, so at 24V, that's only 4 ma per op amp.
+
+I re-ran my tests with the spectrum analyzer, and was able to track down the spurs to the power supply. So I don't have any evidence of internal oscillations.
+
+Looking at the datasheet, Icc is 8 mA per IC with no load, so perhaps everything is operating correctly? It certainly functions as expected and passes all my tests.
+
+I do prefer the new PCB layout, so I'll stick with it, but this sure ended up being quite the wild goose chase.
+
+And I need to get or make a better power supply for testing purposes.
+
 ## 2023-07-19
 
 I re-did the routing for the analog board to eliminate the long traces that were likely adding significant capacitance, and also cleaned up the ground plane on the top side. I did have to move some of the resistors over to 0402, but didn't have to go to four layers.
