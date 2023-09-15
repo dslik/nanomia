@@ -14,6 +14,12 @@ Initial features include:
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-09-14
+
+The 4HP front panel allowing two of these modules to share a common power connector are finished. More details here:
+
+https://github.com/dslik/nanomia/tree/main/2413A
+
 ## 2023-08-26
 
 The PCBs came in, and everything is ready to test:
