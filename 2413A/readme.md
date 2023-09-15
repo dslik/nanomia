@@ -10,3 +10,11 @@ This module uses two 2411-0201 PCBs.
 _Feel free to ask questions by opening an issue!_
 
 ## 2023-09-14
+
+The final boards came in, and everything fits and tests good!
+
+![image](https://github.com/dslik/nanomia/assets/5757591/9e234260-2f77-4053-85a4-602c70c5a97c)
+
+So this project is finished!
+
+The switches I'm using are currently out of stock, and when I can figure out how to order less than a full reel, I will get 25 or so built to keep in stock.
