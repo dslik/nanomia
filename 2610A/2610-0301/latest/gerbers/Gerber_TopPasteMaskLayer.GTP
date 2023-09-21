@@ -1,7 +1,7 @@
 G04 Layer: TopPasteMaskLayer*
-G04 Panelize: , Column: 8, Row: 1, Board Size: 15.24mm x 109.86mm, Panelized Board Size: 135.92mm x 109.86mm*
+G04 Panelize: Stamp Hole, Column: 10, Row: 1, Board Size: 15.24mm x 109.86mm, Panelized Board Size: 206.4mm x 109.86mm*
 G04 EasyEDA v6.5.34, 2023-08-21 18:11:39*
-G04 1bbcc5af6f6940b599c5f5a08724d265,5a6b42c53f6a479593ecc07194224c93,10*
+G04 2c7568c33adc46e786736174184ee4b8,5a6b42c53f6a479593ecc07194224c93,10*
 G04 Gerber Generator version 0.2*
 G04 Scale: 100 percent, Rotated: No, Reflected: No *
 G04 Dimensions in millimeters *
@@ -114,8 +114,8 @@ X-69494Y-2070811D01*
 G37*
 D10*
 G01*
-X266699Y1532224D03*
+X266699Y829975D03*
 D11*
 G01*
-X266700Y829970D03*
+X266700Y1532229D03*
 M02*
