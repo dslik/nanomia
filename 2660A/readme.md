@@ -14,6 +14,14 @@ This module is also re-usable for providing an extended UI for other processor-b
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-10-14
+
+Preliminary schematics for the sensor board:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/7b34c4ce-8ba1-4766-b1b6-bab1dc8f79eb)
+
+The rest of the boards are in the process of being manufactured, and should arrive next week. This will let me test out all of the UX while I wait for the sensor board.
+
 ## 2023-10-02
 
 Created the front panel design. Originally, I was going to use seven-segment displays, but this wouldn't have allowed me to show all the voltage and current levels at the same time, and I really want to support multiple ways to show the data, e.g. peak hold, etc. So an LCD made more sense. I did a few quick mock-ups, and having two LCDs was even better, and only added $5 to the BOM. Since I've been working with another module that supports two LCDs, most of the software is already done.
