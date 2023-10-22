@@ -6,13 +6,25 @@ Initial features include:
 - Current and voltage sensors on the 5V and +/- 12V power rails
 - Two LCD displays
 - Encoder for UI interaction
-- Multiple information visualizations (current value, peak value, chart, meters)
+- Multiple information visualizations (measured volts/amps, peak/average value, trends)
 
 This module is also re-usable for providing an extended UI for other processor-based modules.
 
 # Build Journal
 
 _Feel free to ask questions by opening an issue!_
+
+## 2023-10-21
+
+The boards came in for the front panel and the processor board:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/f2ae7d3d-889b-4dca-9ffb-0b8d0b91f759)
+
+Here's what it looks like assembled, running a simple UI mockup to show what the module could look like when collecting data:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/ee7309a6-7458-489b-b972-0ca2ec54ebf4)
+
+Next steps are to finish up the board layout for the sensor PCB, and to continue to work on the UI code.
 
 ## 2023-10-14
 
