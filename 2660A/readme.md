@@ -14,6 +14,10 @@ This module is also re-usable for providing an extended UI for other processor-b
 
 _Feel free to ask questions by opening an issue!_
 
+## 2024-01-27
+
+The first revision of the sensor board is now designed. This one is complex enough and involves some components that I haven't worked with before, so I'm going to sit on this for a few days and do a design review before sending it off to be manufactured.
+
 ## 2023-10-21
 
 The boards came in for the front panel and the processor board:
