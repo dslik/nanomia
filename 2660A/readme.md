@@ -14,6 +14,16 @@ This module is also re-usable for providing an extended UI for other processor-b
 
 _Feel free to ask questions by opening an issue!_
 
+## 2024-03-10
+
+I finally made time to get the order sent off to get the sensor board manufactured. When it takes three hours to order some PCBs, that's just too long.
+
+Here's a rendering of the back of the board:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/4163367e-7b3b-4822-a21c-ba0f12507d7a)
+
+The power input connector is aligned with the power output connector on the 2610A power supply module, and at some point I'll design a PCB connector board so I don't need to use a cable to connect them together.
+
 ## 2024-01-27
 
 The first revision of the sensor board is now designed. This one is complex enough and involves some components that I haven't worked with before, so I'm going to sit on this for a few days and do a design review before sending it off to be manufactured.
