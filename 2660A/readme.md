@@ -14,6 +14,16 @@ This module is also re-usable for providing an extended UI for other processor-b
 
 _Feel free to ask questions by opening an issue!_
 
+## 2024-06-16
+
+The sensor board arrived a couple of months ago, and I finally found some time to try to bring the board up.
+
+![image](https://github.com/dslik/nanomia/assets/5757591/c19b71e1-adf1-46a1-92ab-59b586d6a130)
+
+The 5V and 12V INA226 came up right away, and I was able to work through the datasheet to figure out how to configure, calibrate and read voltage and current data from them. So far, so good. However, the -12V INA226 doesn't seem to respond on the I2C bus. I double-checked the netlist, pinouts and measured all the power rails, and everything is as expected. Just no responses.
+
+Next step will be to solder on some wires so I can take a look at what is happening on the other side of the isolator using the scope.
+
 ## 2024-03-10
 
 I finally made time to get the order sent off to get the sensor board manufactured. When it takes three hours to order some PCBs, that's just too long.
