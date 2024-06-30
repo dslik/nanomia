@@ -14,6 +14,22 @@ This module is also re-usable for providing an extended UI for other processor-b
 
 _Feel free to ask questions by opening an issue!_
 
+## 2024-06-29
+
+Made good progress bringing up the board. The first challenge was that I wasn't seeing the INA226 for the -12V rail across the isolator. It turns out that the problem was that I had originally designed it for an ISO1540, which is bi-directional, but had changed the BOM to a ISO1541, which is cheaper, but is only uni-directional on the SCL line. And, of course, I had the board layout so that it wasn't the right way around.
+
+After I ordered a few ISO1540s to test with, and threw the board on the hot plate to swap out the IC, all three I2C devices came online. I also made one small mistake where I routed the sense voltage to -12 instead of ground, so it was always reading 0V. This bodge won't win any prizes for being pretty, but it lets me test the change without having to wait for a re-spin:
+
+![image](https://github.com/dslik/nanomia/assets/5757591/aff54b28-83a0-424f-b7d1-482c7b05d055)
+
+And with these changes, I was rewarded with the following output from the debug log:
+
+```+5V: 4.947500 V 0.073000 A | +12V: 12.013750 V 0.000000 A | -12V: -11.972500 V 0.000000 A```
+
+Success!
+
+The next step is to test both the front panel assembly and the sensor board together, and update the UI software to show actual values from the sensors.
+
 ## 2024-06-16
 
 The sensor board arrived a couple of months ago, and I finally found some time to try to bring the board up.
